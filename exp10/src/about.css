@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+    box-sizing: border-box;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    z-index: 100;
+    
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width:400px;
+  }
+  
+  .nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav a:hover {
+    background-color:#FFC000;
+    color: white;
+    border-radius: 4px;
+  }
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  #home {
+    background-image: url("https://images.pexels.com/photos/11283813/pexels-photo-11283813.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #home h2 {
+    color:  white;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #home h1 {
+    color:  #FFC000;
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    color:  white;
+    margin-bottom: 20px;
+  }
+  
+  #home button {
+    background-color: #FFC000;
+    color: white;
+    font-size: 17px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #home button:hover {
+    background-color:#FFC000;
+  }
+  #about {
+    background-color: #000000;
+    background-image: url("https://images.pexels.com/photos/6249727/pexels-photo-6249727.jpeg?auto=compress&cs=tinysrgb&w=600");
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  #about .content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #about h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  
+  #about .p {
+    margin-bottom: 20px;
+    width:50%;
+    text-align: center;
+    padding: auto;
+  }
+  
+  #about button {
+    width: 140px;
+    height: 39px;
+    background-color:  #FFC000;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #about button:hover {
+    background-color: #ff8300;
+  }
+  
+  #about img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  #menu{
+    background-image: url("https://images2.alphacoders.com/901/thumb-1920-901414.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+   
+  
+  }
+  .head{
+    text-align: center;
+    padding: 88px;
+  }
+  .foods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .foodCard{
+    width: 300px;
+    padding: 11px;
+    background-color: #fff;
+    margin-inline: 22px;
+    margin-top: 26px;
+    color: black;
+    cursor: pointer;
+  }
+  .foodCard img{
+    width: 100%;
+  }
+  .foodCard p{
+    padding: 7px;
+  }
+  .foodCard button{
+    width: 130px;
+    background-color: rgb(236, 12, 12);
+    color: white;
+    padding: 3px;
+    border: none;
+    font-size: 18px;
+    
+  }
+  .media {
+    display: flex;
+    justify-content:end; 
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .media li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  .media h1{
+    color:white;
+  }
+  .media li i {
+    font-size: 40px;
+    color: #FFC000;
+    transition: all 0.3s ease;
+  }
+  
+  .media li i:hover {
+    color: #ffbf00;;
+  }
+  .foodCard:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+  .media li i:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+  }
+  
+  #gallery{
+  
+    background-color: black;
+    
+  }
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right, #ff6f61, #9b61ff); /* Gradient background */
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://localhost:8888/login" method="get">
+        <label for="username">Enter your name:</label><br>
+        <input type="text" id="username" name="username" value=""><br><br>
+        
+        <label for="email">Enter your email:</label><br>
+        <input type="text" id="email" name="email" value=""><br><br>
+        
+        <label for="mobile">Enter your mobile:</label><br>
+        <input type="text" id="mobile" name="mobile" required><br><br>
+        
+        <label for="age">Enter your Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <input type="submit" name="login" value="Login">
+    </form>
+</body>
+</html>
